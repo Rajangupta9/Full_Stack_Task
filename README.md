@@ -71,15 +71,15 @@ This will start both the backend server and the frontend development server conc
 The application uses the following configurations:
 
 ### Redis Configuration
-- Host: redis-12675.c212.ap-south-1-1.ec2.cloud.redislabs.com
-- Port: 12675
-- Username: default
-- Password: dssYpBnYQrl01GbCGVhVq2e4dYvUrKJB
+- Host: 
+- Port:
+- Username:
+- Password: 
 
 ### MongoDB Configuration
-- URL: mongodb+srv://assignment_user:HCgEj5zv8Hxwa4xO@test-cluster.6f94f5o.mongodb.net/
-- Database: assignment
-- Collection: assignment_yourname (replace with your first name)
+- URL: 
+- Database: 
+- Collection: 
 
 ## Development Workflow
 
