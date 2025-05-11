@@ -5,16 +5,16 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 
 export const redisConfig: RedisConfig = {
-  host: process.env.REDIS_HOST || 'redis-12675.c212.ap-south-1-1.ec2.cloud.redislabs.com',
-  port: parseInt(process.env.REDIS_PORT || '12675'),
-  username: process.env.REDIS_USERNAME || 'default',
-  password: process.env.REDIS_PASSWORD || 'dssYpBnYQrl01GbCGVhVq2e4dYvUrKJB'
+  host: process.env.REDIS_HOST ,
+  port: parseInt(process.env.REDIS_PORT ),
+  username: process.env.REDIS_USERNAME ,
+  password: process.env.REDIS_PASSWORD 
 };
 
 export const mongoConfig: MongoConfig = {
-  url: process.env.MONGO_URL || "mongodb+srv://cyber:good797@database.fuqlu.mongodb.net/",
-  dbName: process.env.MONGO_DB_NAME || 'FULLSTACK_TASK',
-  collectionName: process.env.MONGO_COLLECTION || 'FULLSTACK_TASK_Rajan'
+  url: process.env.MONGO_URL  ,
+  dbName: process.env.MONGO_DB_NAME ,
+  collectionName: process.env.MONGO_COLLECTION
 };
 
 export const REDIS_KEY = process.env.REDIS_KEY || 'FULLSTACK_TASK_Rajan';
